@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue的使用</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<a href="https://cn.vuejs.org/">vue的官网</a>
+<div id="mount_point">
+    {{meet_words}}
+</div>
+<script>
+    new Vue({
+        el: '#mount_point',
+        data: {
+            meet_words: 'Hello Vue.',
+            feelings: 'Nice'
+        }
+    });
+
+</script>
+</body>
+</html>
